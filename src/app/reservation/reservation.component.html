@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation</title>
+    <link rel="reservation.component" href="reservation.component.css">
+
+</head>
+<body>
+    <h1>Gestión de Reservas</h1>
+
+    <div id="reservation-form">
+        <h2>Crear Reserva</h2>
+        <label for="customerName">Nombre del Cliente:</label>
+        <input type="text" id="customerName" required>
+
+        <label for="reservationDate">Fecha de Reserva:</label>
+        <input type="date" id="reservationDate" required>
+
+        <button onclick="createReservation()">Crear Reserva</button>
+    </div>
+</body>
+</html>
